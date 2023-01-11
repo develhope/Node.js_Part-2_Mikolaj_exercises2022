@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Which one of these is not an HTTP verb?",
+    "answers": ["POST", "OPTIONS", "PITCH", "FIND"],
+    "correctAnswer": "PITCH"
+  },
+  {
+    "question": "What is GET HTTP verb/method used for?",
+    "answers": [
+      "To retrieve data",
+      "To update data",
+      "To create data",
+      "To remove data"
+    ],
+    "correctAnswer": "To retrieve data"
+  },
+  {
+    "question": "What is POST HTTP verb/method used for?",
+    "answers": [
+      "To retrieve data",
+      "To update data",
+      "To create data",
+      "To remove data"
+    ],
+    "correctAnswer": "To create data"
+  },
+  {
+    "question": "What is PATCH HTTP verb/method used for?",
+    "answers": [
+      "To retrieve data",
+      "To replace data",
+      "To update data",
+      "To remove data"
+    ],
+    "correctAnswer": "To update data"
+  },
+  {
+    "question": "What is PUT HTTP verb/method used for?",
+    "answers": [
+      "To retrieve all data",
+      "To replace data",
+      "To update data",
+      "To remove data"
+    ],
+    "correctAnswer": "To replace data"
+  },
+  {
+    "question": "What is DELETE HTTP verb/method used for?",
+    "answers": [
+      "To retrieve all data",
+      "To replace data",
+      "To update data",
+      "To remove data"
+    ],
+    "correctAnswer": "To remove data"
+  },
+  {
+    "question": "Which mime type is correct for sending a file to the server?",
+    "answers": [
+      "multipart/formdata",
+      "application/json",
+      "application/octet-stream"
+    ],
+    "correctAnswer": "multipart/formdata"
+  },
+  {
+    "question": "Middleware is a design pattern...",
+    "answers": [
+      "Where each function receives an input from an output of the previous function in the pipeline",
+      "Used to to save data asynchronously",
+      "To create an object instance"
+    ],
+    "correctAnswer": "Where each function receives an input from an output of the previous function in the pipeline"
+  },
+  {
+    "question": "What is Authentication?",
+    "answers": [
+      "Front-end and back-end form/data validation",
+      "The process of verification of the identity of users to provide access to the system",
+      "The method of granting an authenticated party permission to access resources of the system"
+    ],
+    "correctAnswer": "The process of verification of the identity of users to provide access to the system"
+  },
+  {
+    "question": "What is Authorization?",
+    "answers": [
+      "Front-end and back-end form/data validation",
+      "The process of verification of the identity of users to provide access to the system",
+      "The method of granting an authenticated party permission to access resources of the system"
+    ],
+    "correctAnswer": "The method of granting an authenticated party permission to access resources of the system"
+  },
+  {
+    "question": "Which of these is NOT an authentication strategy?",
+    "answers": [
+      "HTTP Basic authentication",
+      "OAuth",
+      "Bearer authentication",
+      "None. All of the above are authentication strategies"
+    ],
+    "correctAnswer": "None. All of the above are authentication strategies"
+  },
+  {
+    "question": "Which one of the following sentences about JWT is true?",
+    "answers": [
+      "It is used for bearer authentication",
+      "It is used for bearer authorization",
+      "It is used for basic authorization"
+    ],
+    "correctAnswer": "It is used for bearer authentication"
+  },
+  {
+    "question": "Which npm packages are required to implement JWT authentication?",
+    "answers": ["passport", "passport-jwt", "jsonwebtoken", "All of the above"],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "question": "Which SQL statement fetches data from the database?",
+    "answers": [
+      "INSERT INTO planets (name) VALUES ($1);",
+      "UPDATE planets SET name=$2 WHERE id=$1;",
+      "SELECT * FROM planets WHERE id=$1;",
+      "DELETE FROM planets WHERE id=$1;"
+    ],
+    "correctAnswer": "SELECT * FROM planets WHERE id=$1;"
+  },
+  {
+    "question": "Which npm package is used for file upload?",
+    "answers": ["leviathan", "fancybox", "chromatic", "multer"],
+    "correctAnswer": "multer"
+  }
+]
